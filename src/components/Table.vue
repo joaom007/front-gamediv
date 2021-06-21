@@ -1,19 +1,18 @@
 <template>
     <table class="table">
-        <thead>
+        <thead>   
             <tr>
                 <th>Nome</th>
+                <th>Tempo (s)</th>
                 <th>Chutes</th>
-                <th>Tempo</th>
             </tr>
         </thead>
         <tbody>
-            <!-- <tr v-for="game in games">
-                <td>{{game.player.name}}</td>
+            <tr v-for="(game, i) in games" :key="i">
+                <td>{{game.player.name}}</td> 
+                <!-- <td>{{game.plays}}</td>  -->
                 <td>{{game.gameSeconds}}</td>
-                <td>{{game.plays.name}}</td>
-
-            </tr> -->
+            </tr>
         </tbody>
     </table>
 </template>
@@ -39,7 +38,5 @@ export default {
 </script>
 
 <style>
-.table {
-   
-}
+
 </style>

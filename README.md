@@ -1,4 +1,6 @@
-# front-gamediv
+# Projeto Jogo de adivinhação Scale Systems 
+
+<p>Projeto front end Vue.js construído para consumir API: <a href="https://github.com/joaom007/gamediv">https://github.com/joaom007/gamediv</a></p>
 
 ## Project setup
 ```
@@ -22,3 +24,4 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
